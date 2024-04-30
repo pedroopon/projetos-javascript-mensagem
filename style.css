@@ -1,0 +1,49 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+    
+  
+}
+
+#input{
+
+ 
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+input{
+   width: 30svw;
+   height: 4svw;
+}
+
+input::placeholder{
+  display: flex;
+
+ }
+
+ #menssagem{
+    border-bottom: 3px solid rgb(116, 160, 255);
+ }
+
+ .section1{
+
+
+     
+    flex-direction: column;
+    display: flex;
+    border: solid 2px rgb(131, 143, 255);
+    width:  70svw;
+    padding: 40px;
+    gap: 10px;
+    align-items: center;
+ }
+
+ #btn{
+    width:  30svw;
+ }
